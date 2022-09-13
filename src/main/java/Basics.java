@@ -65,6 +65,7 @@ public class Basics {
         int my_variable = 100;
 
 
+
         /* Do not remove the line below: if you did task 2 correctly, then
          * you should see the message "my_variable's value is 100" if you run
          * this file!
@@ -176,7 +177,7 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
-        for (int i = 1; i < arr.length - 1; i = i + 2){
+        for (int i = 1; i <= arr.length - 1; i = i + 2){
             current_sum = current_sum + arr[i];
         }
         return current_sum;
